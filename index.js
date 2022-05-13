@@ -1,6 +1,6 @@
 var express = require("express");
 var app = express();
-
+//3 endpoints are there for now
 const id = [
   { id: 42, name: "Prabesh Magar" },
   { id: 45, name: "Roshan Adhikari" },
