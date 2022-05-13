@@ -14,6 +14,10 @@ app.get("/id", (req, res) => {
   res.json(id);
 });
 
+app.get("/action", (req, res) => {
+  res.send("What is my acton");
+});
+
 app.listen(5000, () => {
   console.log("Listening to port 5000");
 });
