@@ -16,6 +16,7 @@ app.get("/id", (req, res) => {
 });
 
 app.get("/action", (req, res) => {
+  console.log("action route here");
   res.send("What is my acton");
 });
 
